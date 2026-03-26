@@ -1,0 +1,31 @@
+.stApp {background: #f4f7fb; color:#0f172a;}
+.block-container {max-width: 1200px; padding-top: 1rem; padding-bottom: 3rem;}
+.app-shell {margin-bottom: 1rem;}
+.hero-app {display:flex; justify-content:space-between; gap:1rem; background: linear-gradient(135deg,#0f172a,#1e293b); border-radius:28px; padding:1.4rem 1.6rem; color:white; box-shadow:0 18px 48px rgba(15,23,42,.18);}
+.hero-app h1 {margin:0; font-size:2.1rem;}
+.hero-app p {margin:.35rem 0 0 0; color:#dbeafe; max-width:650px;}
+.eyebrow {display:inline-block; font-size:.78rem; font-weight:700; letter-spacing:.04em; text-transform:uppercase; color:#93c5fd; background:rgba(255,255,255,.08); border-radius:999px; padding:.28rem .65rem;}
+.hero-right {display:flex; flex-wrap:wrap; align-content:flex-start; justify-content:flex-end; gap:.5rem;}
+.hero-badge {background:rgba(255,255,255,.12); color:#e2e8f0; border-radius:999px; padding:.5rem .8rem; font-size:.85rem;}
+.section-title {font-size:1.25rem; font-weight:800; margin:1rem 0 .75rem 0; color:#0f172a;}
+.mood-card, .mini-card, .driver-card, .summary-card, .alert-card {background:white; border:1px solid rgba(148,163,184,.15); border-radius:24px; box-shadow:0 10px 30px rgba(15,23,42,.06);}
+.mood-card {padding:1.2rem 1.2rem; min-height:190px; background:linear-gradient(180deg,#ffffff,#f8fafc);}
+.mood-label, .mini-label {font-size:.82rem; color:#64748b; text-transform:uppercase; letter-spacing:.03em;}
+.mood-value {font-size:2rem; font-weight:800; margin-top:.45rem; color:#0f172a;}
+.mood-zone {display:inline-block; margin-top:.7rem; padding:.42rem .75rem; border-radius:999px; background:#e0f2fe; color:#075985; font-weight:700;}
+.mini-card {padding:1rem 1rem; min-height:130px;}
+.mini-value {font-size:1.35rem; font-weight:800; margin-top:.35rem;}
+.mini-sub {margin-top:.45rem; color:#64748b;}
+.summary-card {padding:1rem 1.1rem; margin-top:.9rem;}
+.summary-card h3 {margin:0 0 .4rem 0;}
+.summary-card p {margin:0; line-height:1.55; color:#1e293b;}
+.driver-card {padding:1rem 1rem; min-height:160px;}
+.driver-theme {font-size:.82rem; color:#64748b; text-transform:uppercase; letter-spacing:.03em;}
+.driver-headline {font-size:1.1rem; font-weight:800; margin-top:.45rem; color:#0f172a;}
+.driver-detail {margin-top:.55rem; color:#475569; line-height:1.45;}
+.alert-card {padding:1rem 1rem; min-height:190px; background:linear-gradient(180deg,#ffffff,#fff7ed);}
+.alert-name {font-size:1rem; color:#64748b;}
+.alert-mood {font-size:1.45rem; font-weight:800; margin-top:.25rem;}
+.alert-zone {display:inline-block; margin-top:.55rem; padding:.35rem .7rem; border-radius:999px; background:#ffedd5; color:#9a3412; font-weight:700;}
+.alert-copy {margin-top:.55rem; color:#475569;}
+[data-testid="stSidebar"] {background:#ffffff; border-right:1px solid rgba(148,163,184,.14);}
