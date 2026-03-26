@@ -16,6 +16,44 @@ GROQ_MODEL=llama-3.3-70b-versatile
 You can obtain a Groq API key from: https://console.groq.com/
 
 ---
+## 📥 Dataset Setup
+
+The dataset is not included in this repository due to privacy. To run the project, you must manually add the dataset in the correct location.
+
+---
+
+### 📁 Step 1: Create the required folder
+
+Run the following command from the project root:
+
+```bash
+mkdir -p data/raw
+```
+### 📄 Step 2: Add your dataset file
+
+Place your CSV file inside the folder:
+
+```bash
+data/raw/
+```
+
+---
+Example file name:
+```bash
+data/raw/Athlete_user_data_2026-03-13.csv
+```
+
+### 🧾 Step 3: Verify file placement
+
+Ensure your structure looks like this:
+```bash
+project/
+ ├── data/
+ │    ├── raw/
+ │    │    └── Prorizon_user_data_2026-03-13.csv
+```
+---
+
 ## ⚙️ Setup & Run Locally
 
 ### 1. Clone the repository
